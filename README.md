@@ -144,6 +144,6 @@ PRs are welcome! Please open an issue first to discuss major changes.
 
 Author: **Nikita Mazhuga**
 
-Email : [mazhuga.nikita@icloud.com](mailto:mazhuga.nikita@icloud.com)
+Email: [mazhuga.nikita@icloud.com](mailto:mazhuga.nikita@icloud.com)
 
 ---

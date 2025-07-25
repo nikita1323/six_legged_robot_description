@@ -65,11 +65,6 @@ The launch file accepts the following arguments:
 Follow these steps to build the package inside a ROS 2 workspace:
 
 ```bash
-# Optionally, you can check dependencies using rosdep
-rosdep install --from-paths src -y --ignore-src
-```
-
-```bash
 # Create a ROS2 workspace if you dont have one
 mkdir -p /ros2_ws/src
 cd ~/ros2_ws/src
@@ -77,9 +72,17 @@ cd ~/ros2_ws/src
 # Clone this package
 git clone https://github.com/yourusername/six_legged_robot_description.git
 
-# Build the workspace
 cd ~/ros2_ws
-colcon build
+```
+
+```bash
+# Optionally, you can check dependencies using rosdep
+rosdep install --from-paths src -y --ignore-src
+```
+
+```bash
+# Build the workspace
+colcon build --symlink-install --packages-select six_legged_robot_description
 ```
 
 > 🔧 Make sure you have `xacro`, `robot_state_publisher`, `joint_state_publisher_gui` and `rosdep` (**optionally**) installed.

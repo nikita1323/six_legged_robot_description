@@ -3,7 +3,7 @@
 <package format="3">
   <name>six_legged_robot_description</name>
   <version>0.0.0</version>
-  <description>Symbolical and visual description of a six legged robot, used in my masters thesis</description>
+  <description>Symbolical (URDF) and visual (Solidworks parts and assemblies, STL meshes) description of a six legged robot</description>
   <maintainer email="mazhuga.nikita@icloud.com">Nikita Mazhuga</maintainer>
   <license>MIT</license>
 

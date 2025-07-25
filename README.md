@@ -143,6 +143,7 @@ PRs are welcome! Please open an issue first to discuss major changes.
 ## 📬 Contact
 
 Author: **Nikita Mazhuga**
+
 Email : [mazhuga.nikita@icloud.com](mailto:mazhuga.nikita@icloud.com)
 
 ---
